@@ -1,5 +1,101 @@
+/* 1F */
+.module{
+ margin-top: 10px;
+ height: 700px;
+}
+
+.module_left {
+    float: left;
+    width: 49%;
+    height: 100%;
+    display: block;
+    position: relative;
+  margin-right: 2%;
+ }
+.module_left>img{
+     width: 100%;
+     height: 100%;
+     display: block;
+     position: absolute;
+     top: 0;
+     right: 0;
+}
+.module_left>div{
+ font-size: 2.3125rem;
+ color: #fff;
+ position: absolute;
+ top: 30px;
+ right: 50px;
+}
+.module_right{
+ float: left;
+ width: 49%; height: 49%;
+ /* background-color: #eee; */
+ border: 1px solid rgba(0,0,0,0.2);
+ box-sizing: border-box;
+}
+.module_right>p{
+ font-size: 3rem;
+ margin-top: 76;
+}
+.module_right>div{
+ width: 55%;
+ font-size: 0.875rem;
+ margin: 1.1875rem auto 2.375rem;
+}
+.module_right a{
+display: block;
+text-align: center;
+}
+.module_right a>img:last-child{
+ display: none;
+}
+.module_right a:hover>img:first-child{
+ display: none;
+}
+.module_right a:hover>img:last-child{
+ display: block;
+ margin: 0 auto;
+}
+.module_rights{
+ float: left;
+ width: 49%; height: 49%;
+ display: block;
+ position: relative;
+ margin-top: 0.9rem;
+}
+.module_rights>img{
+ width: 100%; height: 100%;
+ position: absolute;
+}
+.module_rights>div{
+ width: 50%;
+     height: 80px;
+     position: absolute;
+     margin: auto;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     font-size: 37px;
+   text-align: center;
+     color: #fff;
+   line-height: 70px;
+     border-top: 3px solid #fff;
+     border-bottom: 3px solid #fff;
+ }
+.module a:hover .my_img{
+ color: #D9232E;
+ border-color: #D9232E;
+}
+
+
+
 .font_14{
 	font-size: 14px;
+}
+.font_32{
+	font-size: 32px;
 }
 
 #product img{
