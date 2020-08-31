@@ -1,6 +1,6 @@
 @media (min-width:576px){
 	/* header */
-	hr{display: none;}
+	hr.head_hr{display: none;}
 	#pc_nav{
 		display: none !important;
 	}
@@ -95,7 +95,7 @@
 }
 
 @media (min-width:1200px) {
-	hr{
+	hr.head_hr{
 		display: block;
 		margin: 0;
 		border: 2px solid #f00;
